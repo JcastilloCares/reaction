@@ -1,0 +1,52 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #fff;
+  color: #000;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  width: 100%;
+  color: white;
+}
+
+.App-footer {
+  background-color: #282c34;
+  padding: 10px;
+  width: 100%;
+  color: white;
+  margin-top: auto;
+}
+
+.App button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.logo-container {
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+}
+
+.App.dark {
+  background-color: #333;
+  color: white;
+}
+
+.App.dark .App-header,
+.App.dark .App-footer {
+  background-color: #000;
+}
